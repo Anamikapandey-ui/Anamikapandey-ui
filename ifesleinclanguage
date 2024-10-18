@@ -1,0 +1,43 @@
+# include <stdio.h>
+ int main()
+ { int age;
+  printf(" enter your ag\n ");
+  scanf("%D",&age);
+  printf(" you have entered your name \n");
+  if( age>=18){
+  printf("you can drive\n");
+
+  }
+
+  else if (age>=10)
+   {
+    printf("you are between 10 to 18 and you can vote for kids ");
+
+   }
+
+
+  else {
+     printf("  sorry you cannot drive \n");
+  }
+  return 0 ;
+ }
+
+
+
+// int main ()
+//  { int a ;
+//  printf("enter how many exam you have passed ?\n ");
+// scanf("%d",&a);
+
+// if (a=3){
+//     printf(" you will get prize money of 45 ruppes\n");
+
+// }
+// else if (a=2){
+//     printf("congrats ! you will get prize money of 25 rupees\n");
+// }
+
+// else if (a=1){
+//     printf("congrats! you will get prize money of20 rupess \n");
+
+// }
